@@ -1,0 +1,11 @@
+---
+- hosts: apacheserver
+  become: yes
+  vars:
+    n_vars: "server"
+  tasks:
+    - name: install apache2 git add {{n_vars}}
+      apt: 
+       name=apache2 
+       update_cache=yes 
+       state=latest   
