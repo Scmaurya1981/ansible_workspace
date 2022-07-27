@@ -6,12 +6,12 @@
   - name: install webserver on ubuntu ansible nodes.   
     apt: 
       name: apache2 
-      state: absent   
+      state: present   
     when: ansible_os_family == "Debian"
 
   - name: install webserver on RedHat ansible nodes.   
     yum: 
       name: httpd 
-      state: absent   
+      state: present   
     when: ansible_os_family =="RedHat"
 
