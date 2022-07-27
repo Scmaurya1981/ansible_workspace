@@ -1,0 +1,15 @@
+[mywebservers]
+172.31.21.75
+172.31.18.229
+
+[applicationservers]
+172.31.18.8
+172.31.24.21
+
+[DBservers]
+172.31.18.82
+172.31.24.211
+
+[mywebservers:vars]
+mywebserverpackonubuntu= apache2
+mywebserverpackonredhat= httpd
