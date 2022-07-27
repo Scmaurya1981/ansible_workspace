@@ -9,3 +9,11 @@
   - name: display myvar1 
     debug: 
        msg: "{{myvar1}}"
+
+  - name: display myvar2
+    debug: 
+       msg: "{{myvar2}}"
+
+  - name: display myvar3
+    debug: 
+       msg: "{{myvar3}}"
