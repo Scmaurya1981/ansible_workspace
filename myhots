@@ -1,4 +1,7 @@
 [apacheserver]
 172.31.21.75
 172.31.18.229
+
+
+[applicationservers]
 172.31.30.203
